@@ -11,7 +11,10 @@ defmodule Sloth.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :slacker]]
+    [
+      mod: {Sloth, []},
+      applications: [:logger, :slacker]
+    ]
   end
 
   defp deps do

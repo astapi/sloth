@@ -4,4 +4,5 @@ defmodule Sloth do
   def start(_type, _args) do
     Sloth.Supervisor.start_link
   end
+
 end
